@@ -183,3 +183,6 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle && \
 # Screen brightness controls
 bindsym XF86MonBrightnessUp exec light -A 10 # increase screen
 bindsym XF86MonBrightnessDown exec light -U 10 # decrease screen
+
+# Lock screen
+bindsym Control+Mod1+l exec i3lock -c 000000
